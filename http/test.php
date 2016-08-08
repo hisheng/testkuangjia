@@ -11,17 +11,24 @@ namespace test;
 require 'http.php';
 
 
-// 1
+
+/*
+ *
+ * // 1
 $t = new \http\http();
 
-$url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8";
+$url = "http://api.all-appp.com/u90sye";
+$params = array('currentPage'=>3,'pageSize'=>200);
 
-print_r($t->get($url));
+print_r($t->get($url,$params));
+*/
+
+
 
 //2
 
 $s  = new \http\http();
 $url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8";
-$params = array('currentPage'=>3,'pageSize'=>200);
+$params = array('currentPage'=>3,'pageSize'=>100);
 
 print_r($s->post($url,$params));
