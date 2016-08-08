@@ -9,14 +9,18 @@
 namespace http;
 
 class http{
- 
 
-   public function get(){
+
+   public function get($url){
+        //参数
+
+
+
         // 创建一个cURL资源
         $ch = curl_init();
 
         // 设置URL和相应的选项
-        curl_setopt($ch, CURLOPT_URL, "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8");
+        curl_setopt($ch, CURLOPT_URL,$url);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //有返回结果数据的  CURLOPT_RETURNTRANSFER = 1
 

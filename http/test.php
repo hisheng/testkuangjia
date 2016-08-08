@@ -13,7 +13,10 @@ require 'http.php';
 
 // 1
 $t = new \http\http();
-print_r($t->test());
+
+$url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8";
+
+print_r($t->get($url));
 
 //2
 
