@@ -5,11 +5,10 @@
  * Date: 2016/7/29
  * Time: 16:26
  */
- namespace Namespacetest\Foo;
+ namespace name;
 
  class info {
-     public static function get_info()
-     {
+     public static function get_info(){
          echo 'hello word 1';
      }
  }

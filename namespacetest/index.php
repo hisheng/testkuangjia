@@ -7,7 +7,7 @@
  */
 
 require './name.php';
-require './gender.php';
+echo name\info::get_info();
 
-Namespacetest\Foo\info::get_info();
-Namespacetest\Fee\info::get_info();
+require './app/ios.php';
+echo app\ios::hi();
