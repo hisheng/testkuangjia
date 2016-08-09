@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/email/email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.909091" vertical-offset="132" max-vertical-offset="720">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.63265306" vertical-offset="108" max-vertical-offset="744">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75510204" vertical-offset="228" max-vertical-offset="816">
+            <state vertical-scroll-proportion="-13.454545" vertical-offset="228" max-vertical-offset="816">
               <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/http/http.php" />
         <option value="$PROJECT_DIR$/http/test.php" />
         <option value="$PROJECT_DIR$/http/yibuhttp.php" />
-        <option value="$PROJECT_DIR$/email/email.php" />
         <option value="$PROJECT_DIR$/email/test.php" />
+        <option value="$PROJECT_DIR$/email/email.php" />
       </list>
     </option>
   </component>
@@ -98,8 +98,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="237" />
+    <option name="x" value="100" />
+    <option name="y" value="123" />
     <option name="width" value="1654" />
     <option name="height" value="781" />
   </component>
@@ -231,7 +231,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="237" width="1654" height="781" extended-state="1" />
+    <frame x="100" y="123" width="1654" height="781" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -621,20 +621,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email/email.php">
+    <entry file="file://$PROJECT_DIR$/email/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.909091" vertical-offset="132" max-vertical-offset="720">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="29" />
+        <state vertical-scroll-proportion="-13.454545" vertical-offset="228" max-vertical-offset="816">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email/test.php">
+    <entry file="file://$PROJECT_DIR$/email/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75510204" vertical-offset="228" max-vertical-offset="816">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.63265306" vertical-offset="108" max-vertical-offset="744">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
           </folding>

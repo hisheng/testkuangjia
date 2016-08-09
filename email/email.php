@@ -18,7 +18,8 @@ class email{
         $to = '465908774@qq.com';
         $subject = 'love email';
         $message = 'how are you';
-        mail($to,$subject,$message);
+        $headers = 'From: 771801944@qq.com';
+        mail($to,$subject,$message,$headers);
     }
 }
 
