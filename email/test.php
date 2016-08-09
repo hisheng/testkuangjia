@@ -19,7 +19,11 @@ class test{
     public function errorEmailTest(){
         $this->email->errorEmail();
     }
+
+    public function sendEmailTest(){
+        $this->email->sendemail();
+    }
 }
 
 $e = new test();
-$e->errorEmailTest();
+$e->sendEmailTest();
