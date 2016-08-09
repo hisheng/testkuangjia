@@ -21,5 +21,7 @@ class email{
         $headers = 'From: 771801944@qq.com';
         mail($to,$subject,$message,$headers);
     }
+
+    // mb_send_mail 用来发送编码过的 mail 比如中文之类的
 }
 
