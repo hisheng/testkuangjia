@@ -28,7 +28,7 @@ print_r($t->get($url,$params));
 //2
 
 $s  = new \http\http();
-$url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8";
-$params = array('currentPage'=>3,'pageSize'=>100);
+$url = "http://api.all-appp.com/api/huati   ";
+$params = array('userid'=>3,'name'=>'奥运表情','version'=>'0.2.6');
 
 print_r($s->post($url,$params));
