@@ -20,7 +20,7 @@ preg_match_all('/<li class=\"item\"><a href=[|\"]\/people\/(.*?)[|\"] class=\"it
 
 var_dump($out);
 
- 
+
 
 
 

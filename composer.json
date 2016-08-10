@@ -1,0 +1,6 @@
+{
+    "name": "zhanghaisheng/testkuangjia",
+    "require": {
+        "zendframework/zend-stdlib": "^3.0"
+    }
+}
