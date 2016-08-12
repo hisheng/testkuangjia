@@ -1,6 +1,7 @@
 {
     "name": "zhanghaisheng/testkuangjia",
     "require": {
-        "zendframework/zend-stdlib": "^3.0"
+        "zendframework/zend-stdlib": "^3.0",
+        "illuminate/http": "^5.2"
     }
 }

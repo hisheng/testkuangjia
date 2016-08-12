@@ -88,7 +88,7 @@ class string{
         echo str_repeat("-=", 10).br; //-=-=-=-=-=-=-=-=-=-= 重复了10遍
 
 
-        //7 输出子字符串，切割字符串， substr($string,$start,$length);
+        //7 提取字符串，输出子字符串，切割字符串， substr($string,$start,$length);
         echo substr("abcdef", 0, 6).br; // abcdef
         echo substr("abcdef", 0, 1).br;// a
         echo substr("abcdef", 0, -1).br; //abcde
