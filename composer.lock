@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7f1c4c3b7348eb4413ebd95d0b213cd",
-    "content-hash": "a0477c0e79ad9d091eaf12a426be2d24",
+    "hash": "02efe2582fb7029680d33edcaa7f26d1",
+    "content-hash": "ae7b0e1973ac1b73f1651e07f9e6cea5",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -438,6 +438,49 @@
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
             "time": "2016-05-30 02:40:53"
+        },
+        {
+            "name": "jpush/jpush",
+            "version": "v3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpush/jpush-api-php-client.git",
+                "reference": "3fea757d549f08d01e453e9b67fe54948bcc9b5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/jpush/jpush-api-php-client/3fea757d549f08d01e453e9b67fe54948bcc9b5b.zip",
+                "reference": "3fea757d549f08d01e453e9b67fe54948bcc9b5b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JPush\\": "src/JPush/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JPush",
+                    "email": "support@jpush.cn",
+                    "homepage": "https://www.jpush.cn/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JPush API PHP Client",
+            "homepage": "https://github.com/jpush/jpush-api-php-client",
+            "time": "2016-07-27 09:02:26"
         },
         {
             "name": "league/csv",

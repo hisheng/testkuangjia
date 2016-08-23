@@ -21,6 +21,8 @@ preg_match_all('/<li class=\"item\"><a href=[|\"]\/people\/(.*?)[|\"] class=\"it
 var_dump($out);
 
 
+preg_match_all('/<link rel="stylesheet"(.*?).css\">/',$s,$out1);
+var_dump($out1);
 
 
 
