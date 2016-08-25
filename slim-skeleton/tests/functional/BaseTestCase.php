@@ -74,4 +74,10 @@ class BaseTestCase extends \PHPUnit_Framework_TestCase
         // Return the response
         return $response;
     }
+
+    //我自己添加的测试的
+    public function testOne()
+    {
+       echo 'test one success';
+    }
 }
