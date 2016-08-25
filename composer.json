@@ -5,7 +5,8 @@
         "illuminate/http": "^5.2",
         "guzzlehttp/guzzle": "^6.2",
         "league/csv": "^8.1",
-        "jpush/jpush": "^3.5"
+        "jpush/jpush": "^3.5",
+        "monolog/monolog": "^1.21" 
     },
     "autoload" : {
       "psr-4": {"TestKuangjia\\": "src/"}
