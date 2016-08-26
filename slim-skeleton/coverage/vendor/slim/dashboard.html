@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\testkuangjia\slim-skeleton/vendor/slim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../js/html5shiv.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">D:\testkuangjia\slim-skeleton</a></li>
+        <li><a href="../index.html">vendor</a></li>
+        <li><a href="index.html">slim</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#24">UploadedFile</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#17">Cookies</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolver.php.html#19">CallableResolver</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#27">Response</a></td><td class="text-right">29%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#32">Request</a></td><td class="text-right">29%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#49">App</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#30">Router</a></td><td class="text-right">34%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#25">Message</a></td><td class="text-right">34%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/AbstractHandler.php.html#16">AbstractHandler</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#35">Uri</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="slim/Slim/Routable.php.html#19">Routable</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#22">NotAllowed</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#25">MiddlewareAwareTrait</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#20">PhpRenderer</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#22">Route</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#21">Collection</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#27">Headers</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#20">Stream</a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#45">Container</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolverAwareTrait.php.html#24">CallableResolverAwareTrait</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/DefaultServicesProvider.php.html#30">DefaultServicesProvider</a></td><td class="text-right">78%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#32">Request</a></td><td class="text-right">3846</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#49">App</a></td><td class="text-right">1467</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#35">Uri</a></td><td class="text-right">1156</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#24">UploadedFile</a></td><td class="text-right">778</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#27">Response</a></td><td class="text-right">693</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#30">Router</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#17">Cookies</a></td><td class="text-right">400</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#20">Stream</a></td><td class="text-right">298</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#22">Route</a></td><td class="text-right">143</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolver.php.html#19">CallableResolver</a></td><td class="text-right">83</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#25">Message</a></td><td class="text-right">60</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#27">Headers</a></td><td class="text-right">59</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#21">Collection</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#20">PhpRenderer</a></td><td class="text-right">28</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#25">MiddlewareAwareTrait</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#45">Container</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#22">NotAllowed</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="slim/Slim/DefaultServicesProvider.php.html#30">DefaultServicesProvider</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/AbstractHandler.php.html#16">AbstractHandler</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolverAwareTrait.php.html#24">CallableResolverAwareTrait</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#356"><abbr title="Response::isOk">isOk</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#368"><abbr title="Response::isSuccessful">isSuccessful</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#380"><abbr title="Response::isRedirect">isRedirect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#344"><abbr title="Response::isInformational">isInformational</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#307"><abbr title="Response::withJson">withJson</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#230"><abbr title="Response::getReasonPhrase">getReasonPhrase</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#255"><abbr title="Response::write">write</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#278"><abbr title="Response::withRedirect">withRedirect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#392"><abbr title="Response::isRedirection">isRedirection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#405"><abbr title="Response::isForbidden">isForbidden</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#211"><abbr title="Stream::close">close</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#229"><abbr title="Stream::getSize">getSize</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#246"><abbr title="Stream::tell">tell</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#166"><abbr title="Stream::detach">detach</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#453"><abbr title="Response::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#417"><abbr title="Response::isNotFound">isNotFound</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#429"><abbr title="Response::isClientError">isClientError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#441"><abbr title="Response::isServerError">isServerError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1167"><abbr title="Request::getParams">getParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1149"><abbr title="Request::getQueryParam">getQueryParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#697"><abbr title="Request::getCookieParam">getCookieParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#725"><abbr title="Request::withCookieParams">withCookieParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#749"><abbr title="Request::getQueryParams">getQueryParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#682"><abbr title="Request::getCookieParams">getCookieParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#661"><abbr title="Request::getContentLength">getContentLength</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#563"><abbr title="Request::withUri">withUri</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#621"><abbr title="Request::getMediaTypeParams">getMediaTypeParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#644"><abbr title="Request::getContentCharset">getContentCharset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#786"><abbr title="Request::withQueryParams">withQueryParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#810"><abbr title="Request::getUploadedFiles">getUploadedFiles</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1061"><abbr title="Request::reparseBody">reparseBody</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1100"><abbr title="Request::getParam">getParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1126"><abbr title="Request::getParsedBodyParam">getParsedBodyParam</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#952"><abbr title="Request::withoutAttribute">withoutAttribute</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#930"><abbr title="Request::withAttributes">withAttributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#826"><abbr title="Request::withUploadedFiles">withUploadedFiles</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#847"><abbr title="Request::getServerParams">getServerParams</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#74"><abbr title="PhpRenderer::getAttributes">getAttributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#347"><abbr title="Stream::seek">seek</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#386"><abbr title="Stream::read">read</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#240"><abbr title="Route::getArguments">getArguments</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#253"><abbr title="Route::getArgument">getArgument</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#227"><abbr title="Router::setDispatcher">setDispatcher</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#229"><abbr title="Route::setArguments">setArguments</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#199"><abbr title="Route::setName">setName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#118"><abbr title="Route::getCallable">getCallable</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#148"><abbr title="Route::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#168"><abbr title="Route::getOutputBuffering">getOutputBuffering</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#251"><abbr title="Router::getNamedRoute">getNamedRoute</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#268"><abbr title="Router::removeNamedRoute">removeNamedRoute</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#429"><abbr title="Router::urlFor">urlFor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#56"><abbr title="MiddlewareAwareTrait::addMiddleware">addMiddleware</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#66"><abbr title="MiddlewareAwareTrait::anonymous function">anonymous function</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#404"><abbr title="Router::pathFor">pathFor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#340"><abbr title="Router::relativePathFor">relativePathFor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#281"><abbr title="Router::processGroups">processGroups</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#298"><abbr title="Router::pushGroup">pushGroup</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#310"><abbr title="Router::popGroup">popGroup</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Routable.php.html#102"><abbr title="Routable::setPattern">setPattern</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Routable.php.html#91"><abbr title="Routable::add">add</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#309"><abbr title="UploadedFile::getClientMediaType">getClientMediaType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#323"><abbr title="UploadedFile::getSize">getSize</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#140"><abbr title="Uri::createFromString">createFromString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#291"><abbr title="UploadedFile::getClientFilename">getClientFilename</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#273"><abbr title="UploadedFile::getError">getError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#151"><abbr title="UploadedFile::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#177"><abbr title="UploadedFile::getStream">getStream</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#223"><abbr title="UploadedFile::moveTo">moveTo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#275"><abbr title="Uri::withScheme">withScheme</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#378"><abbr title="Uri::withUserInfo">withUserInfo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#676"><abbr title="Uri::withQuery">withQuery</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#744"><abbr title="Uri::withFragment">withFragment</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#810"><abbr title="Uri::getBaseUrl">getBaseUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#592"><abbr title="Uri::withBasePath">withBasePath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#552"><abbr title="Uri::withPath">withPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#415"><abbr title="Uri::withHost">withHost</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#460"><abbr title="Uri::withPort">withPort</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#506"><abbr title="Request::withRequestTarget">withRequestTarget</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#867"><abbr title="Request::getAttributes">getAttributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#91"><abbr title="NotAllowed::renderJsonNotAllowedMessage">renderJsonNotAllowedMessage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#104"><abbr title="NotAllowed::renderXmlNotAllowedMessage">renderXmlNotAllowedMessage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#78"><abbr title="NotAllowed::renderPlainNotAllowedMessage">renderPlainNotAllowedMessage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#183"><abbr title="App::patch">patch</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#465"><abbr title="Request::getRequestTarget">getRequestTarget</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#196"><abbr title="App::delete">delete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#53"><abbr title="Cookies::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#63"><abbr title="Cookies::setDefaults">setDefaults</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#157"><abbr title="App::post">post</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#98"><abbr title="Headers::all">all</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#118"><abbr title="Cookies::toHeader">toHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#87"><abbr title="Cookies::set">set</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#170"><abbr title="App::put">put</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#76"><abbr title="Cookies::get">get</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#209"><abbr title="App::options">options</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#175"><abbr title="Container::__isset">__isset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#293"><abbr title="App::run">run</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#95"><abbr title="Collection::keys">keys</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#630"><abbr title="App::handlePhpError">handlePhpError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#593"><abbr title="App::handleException">handleException</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#479"><abbr title="App::subRequest">subRequest</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#354"><abbr title="App::respond">respond</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#117"><abbr title="Collection::remove">remove</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#266"><abbr title="App::group">group</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#184"><abbr title="Collection::count">count</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#145"><abbr title="Container::exceptionThrownByContainer">exceptionThrownByContainer</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#174"><abbr title="Collection::offsetUnset">offsetUnset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#164"><abbr title="Collection::offsetSet">offsetSet</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Collection.php.html#125"><abbr title="Collection::clear">clear</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#222"><abbr title="App::any">any</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#154"><abbr title="Headers::getOriginalKey">getOriginalKey</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#100"><abbr title="Cookies::toHeaders">toHeaders</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#295"><abbr title="Request::withMethod">withMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#344"><abbr title="Request::isMethod">isMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#356"><abbr title="Request::isGet">isGet</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#275"><abbr title="Request::getOriginalMethod">getOriginalMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#95"><abbr title="PhpRenderer::addAttribute">addAttribute</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#118"><abbr title="PhpRenderer::getTemplatePath">getTemplatePath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#173"><abbr title="Headers::add">add</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#368"><abbr title="Request::isPost">isPost</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#380"><abbr title="Request::isPut">isPut</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#440"><abbr title="Request::isXhr">isXhr</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#84"><abbr title="PhpRenderer::setAttributes">setAttributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#428"><abbr title="Request::isOptions">isOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#416"><abbr title="Request::isHead">isHead</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#392"><abbr title="Request::isPatch">isPatch</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#404"><abbr title="Request::isDelete">isDelete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#128"><abbr title="PhpRenderer::setTemplatePath">setTemplatePath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#105"><abbr title="PhpRenderer::getAttribute">getAttribute</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#107"><abbr title="App::add">add</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#141"><abbr title="Message::getHeaders">getHeaders</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#241"><abbr title="Message::withAddedHeader">withAddedHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#120"><abbr title="App::__call">__call</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#63"><abbr title="Message::__set">__set</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#79"><abbr title="Message::getProtocolVersion">getProtocolVersion</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#98"><abbr title="Message::withProtocolVersion">withProtocolVersion</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#261"><abbr title="Message::withoutHeader">withoutHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#197"><abbr title="Headers::remove">remove</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#154"><abbr title="Message::hasHeader">hasHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#980"><abbr title="Request::getParsedBody">getParsedBody</a></a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#102"><abbr title="UploadedFile::parseUploadedFiles">parseUploadedFiles</a></a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolver.php.html#47"><abbr title="CallableResolver::resolve">resolve</a></a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#214"><abbr title="Request::anonymous function">anonymous function</a></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#76"><abbr title="Headers::determineAuthorization">determineAuthorization</a></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#539"><abbr title="App::finalize">finalize</a></a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#312"><abbr title="Request::filterMethod">filterMethod</a></a></td><td class="text-right">38%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/AbstractHandler.php.html#40"><abbr title="AbstractHandler::determineContentType">determineContentType</a></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#117"><abbr title="Container::get">get</a></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#312"><abbr title="Route::__invoke">__invoke</a></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#698"><abbr title="Uri::anonymous function">anonymous function</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#198"><abbr title="Router::createDispatcher">createDispatcher</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#194"><abbr title="Stream::__toString">__toString</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#146"><abbr title="Stream::attach">attach</a></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#34"><abbr title="NotAllowed::__invoke">__invoke</a></a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#84"><abbr title="UploadedFile::createFromEnvironment">createFromEnvironment</a></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#602"><abbr title="Request::getMediaType">getMediaType</a></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#166"><abbr title="Uri::createFromEnvironment">createFromEnvironment</a></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#166"><abbr title="Cookies::parseHeader">parseHeader</a></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#321"><abbr title="App::process">process</a></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#170"><abbr title="Request::__construct">__construct</a></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#367"><abbr title="Stream::rewind">rewind</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#424"><abbr title="Stream::getContents">getContents</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#573"><abbr title="App::isEmptyResponse">isEmptyResponse</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#320"><abbr title="Router::lookupRoute">lookupRoute</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#242"><abbr title="Request::getMethod">getMethod</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#487"><abbr title="Uri::filterPort">filterPort</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#113"><abbr title="Router::setCacheFile">setCacheFile</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#208"><abbr title="Response::filterStatus">filterStatus</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#140"><abbr title="Router::map">map</a></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#293"><abbr title="Uri::filterScheme">filterScheme</a></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#427"><abbr title="App::__invoke">__invoke</a></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#93"><abbr title="Route::finalize">finalize</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolverAwareTrait.php.html#36"><abbr title="CallableResolverAwareTrait::resolveCallable">resolveCallable</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#182"><abbr title="Route::setOutputBuffering">setOutputBuffering</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#115"><abbr title="Stream::getMetadata">getMetadata</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#404"><abbr title="Stream::write">write</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#95"><abbr title="Router::setBasePath">setBasePath</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="slim/Slim/DefaultServicesProvider.php.html#37"><abbr title="DefaultServicesProvider::register">register</a></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#148"><abbr title="PhpRenderer::fetch">fetch</a></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#621"><abbr title="Uri::filterPath">filterPath</a></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1042"><abbr title="Request::withParsedBody">withParsedBody</a></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#178"><abbr title="Response::withStatus">withStatus</a></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#136"><abbr title="Request::createFromEnvironment">createFromEnvironment</a></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#77"><abbr title="App::__construct">__construct</a></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#270"><abbr title="Stream::isReadable">isReadable</a></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#87"><abbr title="MiddlewareAwareTrait::seedMiddlewareStack">seedMiddlewareStack</a></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="slim/Slim/App.php.html#354"><abbr title="App::respond">respond</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#118"><abbr title="Cookies::toHeader">toHeader</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#140"><abbr title="Uri::createFromString">createFromString</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#223"><abbr title="UploadedFile::moveTo">moveTo</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolver.php.html#47"><abbr title="CallableResolver::resolve">resolve</abbr></a></td><td class="text-right">85</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#340"><abbr title="Router::relativePathFor">relativePathFor</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#102"><abbr title="UploadedFile::parseUploadedFiles">parseUploadedFiles</abbr></a></td><td class="text-right">60</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#980"><abbr title="Request::getParsedBody">getParsedBody</abbr></a></td><td class="text-right">52</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#563"><abbr title="Request::withUri">withUri</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1100"><abbr title="Request::getParam">getParam</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#312"><abbr title="Route::__invoke">__invoke</abbr></a></td><td class="text-right">33</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#229"><abbr title="Stream::getSize">getSize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1126"><abbr title="Request::getParsedBodyParam">getParsedBodyParam</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#810"><abbr title="Uri::getBaseUrl">getBaseUrl</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#593"><abbr title="App::handleException">handleException</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#166"><abbr title="Uri::createFromEnvironment">createFromEnvironment</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#539"><abbr title="App::finalize">finalize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#465"><abbr title="Request::getRequestTarget">getRequestTarget</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#592"><abbr title="Uri::withBasePath">withBasePath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#56"><abbr title="MiddlewareAwareTrait::addMiddleware">addMiddleware</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#246"><abbr title="Stream::tell">tell</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#278"><abbr title="Response::withRedirect">withRedirect</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="slim/Slim/DefaultServicesProvider.php.html#37"><abbr title="DefaultServicesProvider::register">register</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#347"><abbr title="Stream::seek">seek</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#307"><abbr title="Response::withJson">withJson</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#230"><abbr title="Response::getReasonPhrase">getReasonPhrase</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#386"><abbr title="Stream::read">read</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#749"><abbr title="Request::getQueryParams">getQueryParams</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#177"><abbr title="UploadedFile::getStream">getStream</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#120"><abbr title="App::__call">__call</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#251"><abbr title="Router::getNamedRoute">getNamedRoute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#744"><abbr title="Uri::withFragment">withFragment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#676"><abbr title="Uri::withQuery">withQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#552"><abbr title="Uri::withPath">withPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#621"><abbr title="Request::getMediaTypeParams">getMediaTypeParams</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#211"><abbr title="Stream::close">close</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#242"><abbr title="Request::getMethod">getMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#312"><abbr title="Request::filterMethod">filterMethod</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#166"><abbr title="Cookies::parseHeader">parseHeader</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#76"><abbr title="Headers::determineAuthorization">determineAuthorization</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/NotAllowed.php.html#34"><abbr title="NotAllowed::__invoke">__invoke</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#427"><abbr title="App::__invoke">__invoke</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#321"><abbr title="App::process">process</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="slim/Slim/Handlers/AbstractHandler.php.html#40"><abbr title="AbstractHandler::determineContentType">determineContentType</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#117"><abbr title="Container::get">get</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#178"><abbr title="Response::withStatus">withStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#270"><abbr title="Stream::isReadable">isReadable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Message.php.html#98"><abbr title="Message::withProtocolVersion">withProtocolVersion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#281"><abbr title="Router::processGroups">processGroups</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#630"><abbr title="App::handlePhpError">handlePhpError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#404"><abbr title="Router::pathFor">pathFor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#198"><abbr title="Router::createDispatcher">createDispatcher</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#479"><abbr title="App::subRequest">subRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#310"><abbr title="Router::popGroup">popGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#253"><abbr title="Route::getArgument">getArgument</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#100"><abbr title="Cookies::toHeaders">toHeaders</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#98"><abbr title="Headers::all">all</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#173"><abbr title="Headers::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#293"><abbr title="App::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#199"><abbr title="Route::setName">setName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#378"><abbr title="Uri::withUserInfo">withUserInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Headers.php.html#154"><abbr title="Headers::getOriginalKey">getOriginalKey</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Container.php.html#145"><abbr title="Container::exceptionThrownByContainer">exceptionThrownByContainer</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#344"><abbr title="Response::isInformational">isInformational</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#368"><abbr title="Response::isSuccessful">isSuccessful</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#392"><abbr title="Response::isRedirection">isRedirection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#697"><abbr title="Request::getCookieParam">getCookieParam</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#105"><abbr title="PhpRenderer::getAttribute">getAttribute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#87"><abbr title="Cookies::set">set</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1149"><abbr title="Request::getQueryParam">getQueryParam</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1167"><abbr title="Request::getParams">getParams</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#506"><abbr title="Request::withRequestTarget">withRequestTarget</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#429"><abbr title="Response::isClientError">isClientError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#441"><abbr title="Response::isServerError">isServerError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Cookies.php.html#76"><abbr title="Cookies::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#66"><abbr title="MiddlewareAwareTrait::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#644"><abbr title="Request::getContentCharset">getContentCharset</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#661"><abbr title="Request::getContentLength">getContentLength</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#453"><abbr title="Response::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#487"><abbr title="Uri::filterPort">filterPort</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#113"><abbr title="Router::setCacheFile">setCacheFile</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="slim/Slim/Http/UploadedFile.php.html#84"><abbr title="UploadedFile::createFromEnvironment">createFromEnvironment</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#170"><abbr title="Request::__construct">__construct</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Http/Response.php.html#208"><abbr title="Response::filterStatus">filterStatus</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Http/Uri.php.html#293"><abbr title="Uri::filterScheme">filterScheme</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#93"><abbr title="Route::finalize">finalize</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#1042"><abbr title="Request::withParsedBody">withParsedBody</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#194"><abbr title="Stream::__toString">__toString</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#146"><abbr title="Stream::attach">attach</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#424"><abbr title="Stream::getContents">getContents</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#367"><abbr title="Stream::rewind">rewind</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#140"><abbr title="Router::map">map</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#404"><abbr title="Stream::write">write</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Stream.php.html#115"><abbr title="Stream::getMetadata">getMetadata</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="php-view/src/PhpRenderer.php.html#148"><abbr title="PhpRenderer::fetch">fetch</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#136"><abbr title="Request::createFromEnvironment">createFromEnvironment</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#77"><abbr title="App::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/MiddlewareAwareTrait.php.html#87"><abbr title="MiddlewareAwareTrait::seedMiddlewareStack">seedMiddlewareStack</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="slim/Slim/Http/Request.php.html#602"><abbr title="Request::getMediaType">getMediaType</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="slim/Slim/App.php.html#573"><abbr title="App::isEmptyResponse">isEmptyResponse</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#320"><abbr title="Router::lookupRoute">lookupRoute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="slim/Slim/Route.php.html#182"><abbr title="Route::setOutputBuffering">setOutputBuffering</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="slim/Slim/CallableResolverAwareTrait.php.html#36"><abbr title="CallableResolverAwareTrait::resolveCallable">resolveCallable</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="slim/Slim/Router.php.html#95"><abbr title="Router::setBasePath">setBasePath</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.3</a> using <a href="http://php.net/" target="_top">PHP 5.5.12</a> and <a href="http://phpunit.de/">PHPUnit 4.8.9</a> at Fri Aug 26 9:04:44 CEST 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,4,3,2,8,1,2,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([138,0,3,0,4,3,5,14,11,7,0,82], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[55.172413793103,13,"<a href=\"php-view\/src\/PhpRenderer.php.html#20\">PhpRenderer<\/a>"],[33.519553072626,69,"<a href=\"slim\/Slim\/App.php.html#49\">App<\/a>"],[20.689655172414,12,"<a href=\"slim\/Slim\/CallableResolver.php.html#19\">CallableResolver<\/a>"],[58.333333333333,17,"<a href=\"slim\/Slim\/Collection.php.html#21\">Collection<\/a>"],[64,13,"<a href=\"slim\/Slim\/Container.php.html#45\">Container<\/a>"],[78.378378378378,13,"<a href=\"slim\/Slim\/DefaultServicesProvider.php.html#30\">DefaultServicesProvider<\/a>"],[40,4,"<a href=\"slim\/Slim\/Handlers\/AbstractHandler.php.html#16\">AbstractHandler<\/a>"],[54.054054054054,10,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#22\">NotAllowed<\/a>"],[100,2,"<a href=\"slim\/Slim\/Handlers\/Strategies\/RequestResponse.php.html#18\">RequestResponse<\/a>"],[100,0,"<a href=\"slim\/Slim\/Http\/Body.php.html#19\">Body<\/a>"],[20,27,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#17\">Cookies<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Environment.php.html#21\">Environment<\/a>"],[58.823529411765,23,"<a href=\"slim\/Slim\/Http\/Headers.php.html#27\">Headers<\/a>"],[34.615384615385,13,"<a href=\"slim\/Slim\/Http\/Message.php.html#25\">Message<\/a>"],[29.795918367347,104,"<a href=\"slim\/Slim\/Http\/Request.php.html#32\">Request<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/RequestBody.php.html#14\">RequestBody<\/a>"],[29.411764705882,43,"<a href=\"slim\/Slim\/Http\/Response.php.html#27\">Response<\/a>"],[59.047619047619,59,"<a href=\"slim\/Slim\/Http\/Stream.php.html#20\">Stream<\/a>"],[10,32,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#24\">UploadedFile<\/a>"],[46.625766871166,84,"<a href=\"slim\/Slim\/Http\/Uri.php.html#35\">Uri<\/a>"],[50,5,"<a href=\"slim\/Slim\/Routable.php.html#19\">Routable<\/a>"],[55.405405405405,35,"<a href=\"slim\/Slim\/Route.php.html#22\">Route<\/a>"],[34,44,"<a href=\"slim\/Slim\/Router.php.html#30\">Router<\/a>"],[75,2,"<a href=\"slim\/Slim\/CallableResolverAwareTrait.php.html#24\">CallableResolverAwareTrait<\/a>"],[55.172413793103,11,"<a href=\"slim\/Slim\/MiddlewareAwareTrait.php.html#25\">MiddlewareAwareTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#38\">PhpRenderer::__construct<\/a>"],[100,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#60\">PhpRenderer::render<\/a>"],[0,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#74\">PhpRenderer::getAttributes<\/a>"],[0,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#84\">PhpRenderer::setAttributes<\/a>"],[0,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#95\">PhpRenderer::addAttribute<\/a>"],[0,2,"<a href=\"php-view\/src\/PhpRenderer.php.html#105\">PhpRenderer::getAttribute<\/a>"],[0,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#118\">PhpRenderer::getTemplatePath<\/a>"],[0,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#128\">PhpRenderer::setTemplatePath<\/a>"],[77.777777777778,3,"<a href=\"php-view\/src\/PhpRenderer.php.html#148\">PhpRenderer::fetch<\/a>"],[100,1,"<a href=\"php-view\/src\/PhpRenderer.php.html#178\">PhpRenderer::protectedIncludeScope<\/a>"],[85.714285714286,3,"<a href=\"slim\/Slim\/App.php.html#77\">App::__construct<\/a>"],[100,1,"<a href=\"slim\/Slim\/App.php.html#93\">App::getContainer<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#107\">App::add<\/a>"],[0,3,"<a href=\"slim\/Slim\/App.php.html#120\">App::__call<\/a>"],[100,1,"<a href=\"slim\/Slim\/App.php.html#144\">App::get<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#157\">App::post<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#170\">App::put<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#183\">App::patch<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#196\">App::delete<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#209\">App::options<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#222\">App::any<\/a>"],[100,4,"<a href=\"slim\/Slim\/App.php.html#236\">App::map<\/a>"],[0,1,"<a href=\"slim\/Slim\/App.php.html#266\">App::group<\/a>"],[0,2,"<a href=\"slim\/Slim\/App.php.html#293\">App::run<\/a>"],[64.285714285714,6,"<a href=\"slim\/Slim\/App.php.html#321\">App::process<\/a>"],[0,13,"<a href=\"slim\/Slim\/App.php.html#354\">App::respond<\/a>"],[72.222222222222,7,"<a href=\"slim\/Slim\/App.php.html#427\">App::__invoke<\/a>"],[0,2,"<a href=\"slim\/Slim\/App.php.html#479\">App::subRequest<\/a>"],[100,3,"<a href=\"slim\/Slim\/App.php.html#511\">App::dispatchRouterAndPrepareRoute<\/a>"],[35.714285714286,7,"<a href=\"slim\/Slim\/App.php.html#539\">App::finalize<\/a>"],[66.666666666667,2,"<a href=\"slim\/Slim\/App.php.html#573\">App::isEmptyResponse<\/a>"],[0,5,"<a href=\"slim\/Slim\/App.php.html#593\">App::handleException<\/a>"],[0,2,"<a href=\"slim\/Slim\/App.php.html#630\">App::handlePhpError<\/a>"],[100,1,"<a href=\"slim\/Slim\/CallableResolver.php.html#29\">CallableResolver::__construct<\/a>"],[14.814814814815,11,"<a href=\"slim\/Slim\/CallableResolver.php.html#47\">CallableResolver::resolve<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#35\">Collection::__construct<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#50\">Collection::set<\/a>"],[100,2,"<a href=\"slim\/Slim\/Collection.php.html#63\">Collection::get<\/a>"],[100,2,"<a href=\"slim\/Slim\/Collection.php.html#73\">Collection::replace<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#85\">Collection::all<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#95\">Collection::keys<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#107\">Collection::has<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#117\">Collection::remove<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#125\">Collection::clear<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#141\">Collection::offsetExists<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#153\">Collection::offsetGet<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#164\">Collection::offsetSet<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#174\">Collection::offsetUnset<\/a>"],[0,1,"<a href=\"slim\/Slim\/Collection.php.html#184\">Collection::count<\/a>"],[100,1,"<a href=\"slim\/Slim\/Collection.php.html#198\">Collection::getIterator<\/a>"],[100,2,"<a href=\"slim\/Slim\/Container.php.html#67\">Container::__construct<\/a>"],[100,1,"<a href=\"slim\/Slim\/Container.php.html#85\">Container::registerDefaultServices<\/a>"],[100,1,"<a href=\"slim\/Slim\/Container.php.html#95\">Container::anonymous function<\/a>"],[40,4,"<a href=\"slim\/Slim\/Container.php.html#117\">Container::get<\/a>"],[0,2,"<a href=\"slim\/Slim\/Container.php.html#145\">Container::exceptionThrownByContainer<\/a>"],[100,1,"<a href=\"slim\/Slim\/Container.php.html#160\">Container::has<\/a>"],[100,1,"<a href=\"slim\/Slim\/Container.php.html#170\">Container::__get<\/a>"],[0,1,"<a href=\"slim\/Slim\/Container.php.html#175\">Container::__isset<\/a>"],[76.470588235294,12,"<a href=\"slim\/Slim\/DefaultServicesProvider.php.html#37\">DefaultServicesProvider::register<\/a>"],[100,1,"<a href=\"slim\/Slim\/DefaultServicesProvider.php.html#198\">DefaultServicesProvider::anonymous function<\/a>"],[40,4,"<a href=\"slim\/Slim\/Handlers\/AbstractHandler.php.html#40\">AbstractHandler::determineContentType<\/a>"],[59.259259259259,6,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#34\">NotAllowed::__invoke<\/a>"],[0,1,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#78\">NotAllowed::renderPlainNotAllowedMessage<\/a>"],[0,1,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#91\">NotAllowed::renderJsonNotAllowedMessage<\/a>"],[0,1,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#104\">NotAllowed::renderXmlNotAllowedMessage<\/a>"],[100,1,"<a href=\"slim\/Slim\/Handlers\/NotAllowed.php.html#117\">NotAllowed::renderHtmlNotAllowedMessage<\/a>"],[100,2,"<a href=\"slim\/Slim\/Handlers\/Strategies\/RequestResponse.php.html#31\">RequestResponse::__invoke<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#53\">Cookies::__construct<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#63\">Cookies::setDefaults<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#76\">Cookies::get<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#87\">Cookies::set<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#100\">Cookies::toHeaders<\/a>"],[0,12,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#118\">Cookies::toHeader<\/a>"],[63.157894736842,7,"<a href=\"slim\/Slim\/Http\/Cookies.php.html#166\">Cookies::parseHeader<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Environment.php.html#30\">Environment::mock<\/a>"],[100,5,"<a href=\"slim\/Slim\/Http\/Headers.php.html#51\">Headers::createFromEnvironment<\/a>"],[33.333333333333,4,"<a href=\"slim\/Slim\/Http\/Headers.php.html#76\">Headers::determineAuthorization<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#98\">Headers::all<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#118\">Headers::set<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#137\">Headers::get<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#154\">Headers::getOriginalKey<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#173\">Headers::add<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Headers.php.html#187\">Headers::has<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Headers.php.html#197\">Headers::remove<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Headers.php.html#213\">Headers::normalizeKey<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#63\">Message::__set<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#79\">Message::getProtocolVersion<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Message.php.html#98\">Message::withProtocolVersion<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#141\">Message::getHeaders<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#154\">Message::hasHeader<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#173\">Message::getHeader<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#197\">Message::getHeaderLine<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#217\">Message::withHeader<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#241\">Message::withAddedHeader<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#261\">Message::withoutHeader<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#278\">Message::getBody<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Message.php.html#296\">Message::withBody<\/a>"],[85.714285714286,3,"<a href=\"slim\/Slim\/Http\/Request.php.html#136\">Request::createFromEnvironment<\/a>"],[65.384615384615,4,"<a href=\"slim\/Slim\/Http\/Request.php.html#170\">Request::__construct<\/a>"],[33.333333333333,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#214\">Request::anonymous function<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#226\">Request::__clone<\/a>"],[66.666666666667,9,"<a href=\"slim\/Slim\/Http\/Request.php.html#242\">Request::getMethod<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#275\">Request::getOriginalMethod<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#295\">Request::withMethod<\/a>"],[38.461538461538,5,"<a href=\"slim\/Slim\/Http\/Request.php.html#312\">Request::filterMethod<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#344\">Request::isMethod<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#356\">Request::isGet<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#368\">Request::isPost<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#380\">Request::isPut<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#392\">Request::isPatch<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#404\">Request::isDelete<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#416\">Request::isHead<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#428\">Request::isOptions<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#440\">Request::isXhr<\/a>"],[0,4,"<a href=\"slim\/Slim\/Http\/Request.php.html#465\">Request::getRequestTarget<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#506\">Request::withRequestTarget<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#528\">Request::getUri<\/a>"],[0,6,"<a href=\"slim\/Slim\/Http\/Request.php.html#563\">Request::withUri<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#588\">Request::getContentType<\/a>"],[60,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#602\">Request::getMediaType<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Request.php.html#621\">Request::getMediaTypeParams<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#644\">Request::getContentCharset<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#661\">Request::getContentLength<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#682\">Request::getCookieParams<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#697\">Request::getCookieParam<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#725\">Request::withCookieParams<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Request.php.html#749\">Request::getQueryParams<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#786\">Request::withQueryParams<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#810\">Request::getUploadedFiles<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#826\">Request::withUploadedFiles<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#847\">Request::getServerParams<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#867\">Request::getAttributes<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#887\">Request::getAttribute<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#907\">Request::withAttribute<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#930\">Request::withAttributes<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#952\">Request::withoutAttribute<\/a>"],[11.111111111111,8,"<a href=\"slim\/Slim\/Http\/Request.php.html#980\">Request::getParsedBody<\/a>"],[80,4,"<a href=\"slim\/Slim\/Http\/Request.php.html#1042\">Request::withParsedBody<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Request.php.html#1061\">Request::reparseBody<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#1078\">Request::registerMediaTypeParser<\/a>"],[0,6,"<a href=\"slim\/Slim\/Http\/Request.php.html#1100\">Request::getParam<\/a>"],[0,5,"<a href=\"slim\/Slim\/Http\/Request.php.html#1126\">Request::getParsedBodyParam<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#1149\">Request::getQueryParam<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Request.php.html#1167\">Request::getParams<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/RequestBody.php.html#19\">RequestBody::__construct<\/a>"],[100,3,"<a href=\"slim\/Slim\/Http\/Response.php.html#123\">Response::__construct<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#136\">Response::__clone<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#153\">Response::getStatusCode<\/a>"],[83.333333333333,6,"<a href=\"slim\/Slim\/Http\/Response.php.html#178\">Response::withStatus<\/a>"],[66.666666666667,4,"<a href=\"slim\/Slim\/Http\/Response.php.html#208\">Response::filterStatus<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Response.php.html#230\">Response::getReasonPhrase<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#255\">Response::write<\/a>"],[0,4,"<a href=\"slim\/Slim\/Http\/Response.php.html#278\">Response::withRedirect<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Response.php.html#307\">Response::withJson<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#332\">Response::isEmpty<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#344\">Response::isInformational<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#356\">Response::isOk<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#368\">Response::isSuccessful<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#380\">Response::isRedirect<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#392\">Response::isRedirection<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#405\">Response::isForbidden<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Response.php.html#417\">Response::isNotFound<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#429\">Response::isClientError<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#441\">Response::isServerError<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Response.php.html#453\">Response::__toString<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Stream.php.html#96\">Stream::__construct<\/a>"],[75,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#115\">Stream::getMetadata<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Stream.php.html#132\">Stream::isAttached<\/a>"],[57.142857142857,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#146\">Stream::attach<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Stream.php.html#166\">Stream::detach<\/a>"],[50,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#194\">Stream::__toString<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#211\">Stream::close<\/a>"],[0,5,"<a href=\"slim\/Slim\/Http\/Stream.php.html#229\">Stream::getSize<\/a>"],[0,4,"<a href=\"slim\/Slim\/Http\/Stream.php.html#246\">Stream::tell<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Stream.php.html#260\">Stream::eof<\/a>"],[86.666666666667,6,"<a href=\"slim\/Slim\/Http\/Stream.php.html#270\">Stream::isReadable<\/a>"],[100,5,"<a href=\"slim\/Slim\/Http\/Stream.php.html#297\">Stream::isWritable<\/a>"],[100,4,"<a href=\"slim\/Slim\/Http\/Stream.php.html#320\">Stream::isSeekable<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#347\">Stream::seek<\/a>"],[66.666666666667,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#367\">Stream::rewind<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#386\">Stream::read<\/a>"],[75,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#404\">Stream::write<\/a>"],[66.666666666667,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#424\">Stream::getContents<\/a>"],[100,3,"<a href=\"slim\/Slim\/Http\/Stream.php.html#438\">Stream::isPipe<\/a>"],[60,4,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#84\">UploadedFile::createFromEnvironment<\/a>"],[14.285714285714,9,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#102\">UploadedFile::parseUploadedFiles<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#151\">UploadedFile::__construct<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#177\">UploadedFile::getStream<\/a>"],[0,11,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#223\">UploadedFile::moveTo<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#273\">UploadedFile::getError<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#291\">UploadedFile::getClientFilename<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#309\">UploadedFile::getClientMediaType<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/UploadedFile.php.html#323\">UploadedFile::getSize<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Uri.php.html#112\">Uri::__construct<\/a>"],[0,11,"<a href=\"slim\/Slim\/Http\/Uri.php.html#140\">Uri::createFromString<\/a>"],[62.790697674419,13,"<a href=\"slim\/Slim\/Http\/Uri.php.html#166\">Uri::createFromEnvironment<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#255\">Uri::getScheme<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#275\">Uri::withScheme<\/a>"],[71.428571428571,4,"<a href=\"slim\/Slim\/Http\/Uri.php.html#293\">Uri::filterScheme<\/a>"],[100,3,"<a href=\"slim\/Slim\/Http\/Uri.php.html#335\">Uri::getAuthority<\/a>"],[100,2,"<a href=\"slim\/Slim\/Http\/Uri.php.html#359\">Uri::getUserInfo<\/a>"],[0,2,"<a href=\"slim\/Slim\/Http\/Uri.php.html#378\">Uri::withUserInfo<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#398\">Uri::getHost<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#415\">Uri::withHost<\/a>"],[100,3,"<a href=\"slim\/Slim\/Http\/Uri.php.html#438\">Uri::getPort<\/a>"],[0,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#460\">Uri::withPort<\/a>"],[100,4,"<a href=\"slim\/Slim\/Http\/Uri.php.html#474\">Uri::hasStandardPort<\/a>"],[66.666666666667,5,"<a href=\"slim\/Slim\/Http\/Uri.php.html#487\">Uri::filterPort<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#525\">Uri::getPath<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Uri.php.html#552\">Uri::withPath<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#579\">Uri::getBasePath<\/a>"],[0,4,"<a href=\"slim\/Slim\/Http\/Uri.php.html#592\">Uri::withBasePath<\/a>"],[80,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#621\">Uri::filterPath<\/a>"],[50,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#698\">Uri::anonymous function<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#656\">Uri::getQuery<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Uri.php.html#676\">Uri::withQuery<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#694\">Uri::filterQuery<\/a>"],[100,1,"<a href=\"slim\/Slim\/Http\/Uri.php.html#725\">Uri::getFragment<\/a>"],[0,3,"<a href=\"slim\/Slim\/Http\/Uri.php.html#744\">Uri::withFragment<\/a>"],[100,5,"<a href=\"slim\/Slim\/Http\/Uri.php.html#783\">Uri::__toString<\/a>"],[0,5,"<a href=\"slim\/Slim\/Http\/Uri.php.html#810\">Uri::getBaseUrl<\/a>"],[100,1,"<a href=\"slim\/Slim\/Routable.php.html#56\">Routable::getMiddleware<\/a>"],[100,1,"<a href=\"slim\/Slim\/Routable.php.html#66\">Routable::getPattern<\/a>"],[100,1,"<a href=\"slim\/Slim\/Routable.php.html#78\">Routable::setContainer<\/a>"],[0,1,"<a href=\"slim\/Slim\/Routable.php.html#91\">Routable::add<\/a>"],[0,1,"<a href=\"slim\/Slim\/Routable.php.html#102\">Routable::setPattern<\/a>"],[100,2,"<a href=\"slim\/Slim\/Route.php.html#81\">Route::__construct<\/a>"],[75,4,"<a href=\"slim\/Slim\/Route.php.html#93\">Route::finalize<\/a>"],[0,1,"<a href=\"slim\/Slim\/Route.php.html#118\">Route::getCallable<\/a>"],[100,1,"<a href=\"slim\/Slim\/Route.php.html#128\">Route::getMethods<\/a>"],[100,1,"<a href=\"slim\/Slim\/Route.php.html#138\">Route::getGroups<\/a>"],[0,1,"<a href=\"slim\/Slim\/Route.php.html#148\">Route::getName<\/a>"],[100,1,"<a href=\"slim\/Slim\/Route.php.html#158\">Route::getIdentifier<\/a>"],[0,1,"<a href=\"slim\/Slim\/Route.php.html#168\">Route::getOutputBuffering<\/a>"],[75,2,"<a href=\"slim\/Slim\/Route.php.html#182\">Route::setOutputBuffering<\/a>"],[0,2,"<a href=\"slim\/Slim\/Route.php.html#199\">Route::setName<\/a>"],[100,1,"<a href=\"slim\/Slim\/Route.php.html#216\">Route::setArgument<\/a>"],[0,1,"<a href=\"slim\/Slim\/Route.php.html#229\">Route::setArguments<\/a>"],[0,1,"<a href=\"slim\/Slim\/Route.php.html#240\">Route::getArguments<\/a>"],[0,2,"<a href=\"slim\/Slim\/Route.php.html#253\">Route::getArgument<\/a>"],[100,2,"<a href=\"slim\/Slim\/Route.php.html#271\">Route::prepare<\/a>"],[100,1,"<a href=\"slim\/Slim\/Route.php.html#291\">Route::run<\/a>"],[42.857142857143,11,"<a href=\"slim\/Slim\/Route.php.html#312\">Route::__invoke<\/a>"],[100,2,"<a href=\"slim\/Slim\/Router.php.html#83\">Router::__construct<\/a>"],[75,2,"<a href=\"slim\/Slim\/Router.php.html#95\">Router::setBasePath<\/a>"],[66.666666666667,5,"<a href=\"slim\/Slim\/Router.php.html#113\">Router::setCacheFile<\/a>"],[70,3,"<a href=\"slim\/Slim\/Router.php.html#140\">Router::map<\/a>"],[100,1,"<a href=\"slim\/Slim\/Router.php.html#171\">Router::dispatch<\/a>"],[100,1,"<a href=\"slim\/Slim\/Router.php.html#190\">Router::createRoute<\/a>"],[50,4,"<a href=\"slim\/Slim\/Router.php.html#198\">Router::createDispatcher<\/a>"],[100,2,"<a href=\"slim\/Slim\/Router.php.html#204\">Router::anonymous function<\/a>"],[0,1,"<a href=\"slim\/Slim\/Router.php.html#227\">Router::setDispatcher<\/a>"],[100,1,"<a href=\"slim\/Slim\/Router.php.html#237\">Router::getRoutes<\/a>"],[0,3,"<a href=\"slim\/Slim\/Router.php.html#251\">Router::getNamedRoute<\/a>"],[0,1,"<a href=\"slim\/Slim\/Router.php.html#268\">Router::removeNamedRoute<\/a>"],[0,2,"<a href=\"slim\/Slim\/Router.php.html#281\">Router::processGroups<\/a>"],[0,1,"<a href=\"slim\/Slim\/Router.php.html#298\">Router::pushGroup<\/a>"],[0,2,"<a href=\"slim\/Slim\/Router.php.html#310\">Router::popGroup<\/a>"],[66.666666666667,2,"<a href=\"slim\/Slim\/Router.php.html#320\">Router::lookupRoute<\/a>"],[0,8,"<a href=\"slim\/Slim\/Router.php.html#340\">Router::relativePathFor<\/a>"],[0,2,"<a href=\"slim\/Slim\/Router.php.html#404\">Router::pathFor<\/a>"],[0,1,"<a href=\"slim\/Slim\/Router.php.html#429\">Router::urlFor<\/a>"],[75,2,"<a href=\"slim\/Slim\/CallableResolverAwareTrait.php.html#36\">CallableResolverAwareTrait::resolveCallable<\/a>"],[0,4,"<a href=\"slim\/Slim\/MiddlewareAwareTrait.php.html#56\">MiddlewareAwareTrait::addMiddleware<\/a>"],[0,2,"<a href=\"slim\/Slim\/MiddlewareAwareTrait.php.html#66\">MiddlewareAwareTrait::anonymous function<\/a>"],[88.888888888889,3,"<a href=\"slim\/Slim\/MiddlewareAwareTrait.php.html#87\">MiddlewareAwareTrait::seedMiddlewareStack<\/a>"],[100,2,"<a href=\"slim\/Slim\/MiddlewareAwareTrait.php.html#108\">MiddlewareAwareTrait::callMiddlewareStack<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
