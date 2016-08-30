@@ -111,3 +111,33 @@ foreach($daterange as $date){
 20120809
 20120810
 */
+
+// 两个日期的时间间隔
+
+function dateDiff($day1,$day2){
+    $dt1 = new DateTime($day1);
+    $dt2 = new DateTime($day2);
+
+    $interval = $dt1->diff($dt2);
+
+    var_dump($interval);
+}
+
+dateDiff('2015-05-13','2016-09-9');
+/*
+ * object(DateInterval)[14]
+  public 'y' => int 1
+  public 'm' => int 3
+  public 'd' => int 27
+  public 'h' => int 0
+  public 'i' => int 0
+  public 's' => int 0
+  public 'weekday' => int 0
+  public 'weekday_behavior' => int 0
+  public 'first_last_day_of' => int 0
+  public 'invert' => int 0
+  public 'days' => int 485
+  public 'special_type' => int 0
+  public 'special_amount' => int 0
+  public 'have_weekday_relative' => int 0
+  public 'have_special_relative' => int 0*/
