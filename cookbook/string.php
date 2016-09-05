@@ -41,3 +41,24 @@ var_dump("the cost is $cost"); //string 'the cost is $10.25' (length=18)
 $neighbor = 'hilde';
 var_dump($neighbor[3]); //string 'd' (length=1)
 
+
+
+//字符串 插入函数
+//1 .
+
+$a = 2;
+$b = array('name'=>'hisheng');
+
+echo 'wo hava '.$a.' apple';
+
+echo 'my name is '.$b['name'];
+
+//双引号
+
+echo "we have $a apple";
+echo "my name is $b[name]"; // 用 $b[name] 代替 $b['name']
+
+//或者用 {}
+
+echo "we hava {$a} apple";
+echo "my name is {$b['name']} ";
