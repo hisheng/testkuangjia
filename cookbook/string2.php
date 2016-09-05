@@ -32,3 +32,29 @@ for($i = 0 ;$i< strlen($s);$i++){
 echo $num;
 
 br();
+
+// 使字符串在 制定的 长度 自动换行
+
+
+// woedwrap() 会以75个字符自动换行，
+echo wordwrap($a);
+br();
+print "<pre>\n".wordwrap($a,10)."\n</pre>";
+/*
+ *
+ * i love
+write
+code,haha,how
+are you
+*/
+
+
+
+print wordwrap($a,10,"<br/>");
+/*
+ *
+ * i love
+write
+code,haha,how
+are you
+*/
