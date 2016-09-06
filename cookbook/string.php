@@ -62,3 +62,9 @@ echo "my name is $b[name]"; // 用 $b[name] 代替 $b['name']
 
 echo "we hava {$a} apple";
 echo "my name is {$b['name']} ";
+echo "select * from users where name = '{$b['name']}'"; // select * from users where name = 'hisheng'
+
+
+
+//去除 字符串 首尾 空格
+

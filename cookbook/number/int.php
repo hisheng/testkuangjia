@@ -46,3 +46,4 @@ function squares($start,$stop){
 foreach (squares(3,15) as $n => $square){
     printf("%d squared is %d <br/>",$n,$square);
 }
+

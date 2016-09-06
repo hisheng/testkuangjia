@@ -20,3 +20,5 @@ br();
 
 // 按单词 反转
 var_dump(implode(' ',array_reverse(explode(' ',$a))));
+
+
