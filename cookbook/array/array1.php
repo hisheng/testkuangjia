@@ -88,3 +88,10 @@ array_multisort($num3['a'],SORT_NUMERIC,SORT_DESC,$num3['b'],SORT_NUMERIC,SORT_A
 var_dump($num3);
 
 
+
+
+//随机调整数组
+
+$num4 = [2,44,77,89,33];
+var_dump(shuffle($num4));
+var_dump($num4);
