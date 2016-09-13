@@ -8,10 +8,14 @@
 
 //正则学习
 
-$html = file_get_contents('http://www.qq.com/');
-//print_r($html);
+$page = 0;
+
+$index = $page*40;
+
+$html = file_get_contents('https://movie.douban.com/celebrity/1018667/photos/?type=C&start='.$index.'&sortby=vote&size=a&subtype=a');
+print_r($html);
 
 
-preg_match_all('[<a.+</a>]',$html,$match1);
+preg_match_all("/<ul class=\"poster-col4 clearfix.*?<\/ul>/",$html,$match1);
 
 var_dump($match1);
