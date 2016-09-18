@@ -28,4 +28,4 @@ var_dump(array_diff($a,$b));
 var_dump(array_diff($b,$a));
 
 //对称差集 ,全部的 除去交集的部分
-var_dump(array_merge(array_diff($a,$b),array_diff($b,$a)));
+var_dump(array_merge(array_diff($a,$b),array_diff($b,$a)    ));
