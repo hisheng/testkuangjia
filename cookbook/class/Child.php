@@ -7,6 +7,7 @@
  */
 
 require 'Father.php';
+require 'Grandfather.php';
 
 $c = new Father();
 
@@ -15,3 +16,16 @@ echo father;
 
 unset($c);
 echo father;
+
+$d = new Grandfather();
+$d->t();
+
+
+// 不能被继承，只能调用
+class child1 extends Grandfather{
+
+}
+
+
+
+
