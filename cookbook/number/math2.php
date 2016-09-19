@@ -25,3 +25,6 @@ var_dump(0x10/0x3);//float 5.3333333333333 输出是 是进制，结果，都是
 var_dump(0x10*0x3);//int 48
 var_dump(0x10+0x3);//int 19
 var_dump(0x10-0x3);//int 13
+
+
+//

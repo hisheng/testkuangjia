@@ -10,3 +10,5 @@ echo rand(0,22);
 echo srand(13);
 
 
+var_dump(srand(32152));
+var_dump(rand(1,100000));
