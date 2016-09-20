@@ -41,12 +41,23 @@ if(validate($_GET['username'],$_GET['pass'])){
 if(isset($_SESSION['login'])){
     list($c_usrname,$cookie_hash) = explode(',',$_SESSION['login']);
     var_dump($c_usrname);
+    var_dump('session login'.$_SESSION['login']);
+    var_dump('cookie login'.$_COOKIE['login']);
     if($_SESSION['login'] == $_COOKIE['login']){
         var_dump('欢迎hisheng');
     }
 }else{
     var_dump('请正确登录');
 }
+
+
+var_dump(session_name());
+var_dump($_REQUEST);
+session_regenerate_id();
+var_dump($_SESSION);
+
+//output_add_rewrite_var('token','hishnegtoken');
+
 
 // 通过 session，就算仿制 cookie也没有用，因为 session不一样
 

@@ -1,0 +1,20 @@
+1s1o3cciuu2gifudckddjing64
+
+'login' => string 'david,32459ee26da818b27eeac9d5527fc394'
+
+
+PHPSESSID  0ud6ul68hh61dfut0r85ia4qf1
+ci_session  49fd20a5003635232f192df9a94f90863d37d42a
+
+
+_gh_sess  eyJzZXNzaW9uX2lkIjoiYmVmZDNiYmFiYTcyMzAyZjgwYTgxNzkyZjc1NTIyYzgiLCJzcHlfcmVwbyI6Imhpc2hlbmcvdGVzdGt1YW5namlhIiwic3B5X3JlcG9fYXQiOjE0NzQyODI0MDksImxhc3Rfd3JpdGUiOjE0NzQyODE1MjQ5MzgsImNvbnRleHQiOiIvIiwicmV0dXJuX3RvIjoiL3R5cGVjaG8vdHlwZWNoby9wdWxsLzQ4MCJ9
+
+
+dotcom_user  hisheng
+
+logged_in
+
+
+tz  Asia%2FShanghai
+
+user_session  qfxPzu5Y1s_MnBeknWqXoW2oDAR5v5ROIM3qN4D1NV2giXOGV9_DqoWR0TVhQHqEgaK4xQ
