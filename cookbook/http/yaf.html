@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    $.ajax({
+        type: "PUT",
+        url: "http://yaf.zhs.com/user",
+        data: { username: "dd", password: "123" },
+        dataType: "json"
+    }).done(function( data ) {
+        console.log(data)
+
+    });
+
+</script>
+
+</body>
+</html>
