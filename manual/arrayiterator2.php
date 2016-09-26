@@ -34,7 +34,7 @@ $resultsObject = new ArrayObject($results);
 
 // 方法一 先用 foreach 测试一下
 foreach ($resultsObject as $resultObject) {
-    var_dump($resultObject);
+   // var_dump($resultObject);
 }
 
 
@@ -42,11 +42,19 @@ foreach ($resultsObject as $resultObject) {
 $iterator = $resultsObject->getIterator();
 
 while($iterator->valid()){
-    var_dump($iterator->current());
+    //var_dump($iterator->valid());
+    //var_dump($iterator->count());
+   // var_dump($iterator->current());
+    //var_dump($iterator->key());
+    //var_dump($iterator->getFlags());
+    //var_dump($iterator->asort());
+
     $iterator->next();
 }
+//$iterator->ksort();
+//var_dump($iterator->offsetGet(5));
+var_dump($iterator);
 
-
-// 
+//
 
 
