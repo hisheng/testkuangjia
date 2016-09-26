@@ -75,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zip.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manual/zip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29090908" vertical-offset="0" max-vertical-offset="864">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="20" />
+            <state vertical-scroll-proportion="-10.909091" vertical-offset="0" max-vertical-offset="864">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bzip.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manual/bzip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53491825" vertical-offset="0" max-vertical-offset="673">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -95,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cookbook/preg/preg.php" />
         <option value="$PROJECT_DIR$/cookbook/preg/preg1.php" />
         <option value="$PROJECT_DIR$/cookbook/string4.php" />
         <option value="$PROJECT_DIR$/cookbook/number/number.php" />
@@ -146,6 +157,7 @@
         <option value="$PROJECT_DIR$/manual/array.php" />
         <option value="$PROJECT_DIR$/manual/basic.php" />
         <option value="$PROJECT_DIR$/manual/zip.php" />
+        <option value="$PROJECT_DIR$/manual/bzip.php" />
       </list>
     </option>
   </component>
@@ -154,8 +166,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="139" />
+    <option name="x" value="443" />
+    <option name="y" value="130" />
     <option name="width" value="1555" />
     <option name="height" value="866" />
   </component>
@@ -319,7 +331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="139" width="1555" height="866" extended-state="1" />
+    <frame x="443" y="130" width="1555" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -366,14 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbook/file/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbook/file/file2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
@@ -830,8 +834,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manual/zip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29090908" vertical-offset="0" max-vertical-offset="864">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="20" />
+        <state vertical-scroll-proportion="-10.909091" vertical-offset="0" max-vertical-offset="864">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/bzip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53491825" vertical-offset="0" max-vertical-offset="673">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
