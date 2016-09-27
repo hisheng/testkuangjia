@@ -56,11 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="output.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manual/output.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.19205298" vertical-offset="308" max-vertical-offset="912">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state vertical-scroll-proportion="-9.575758" vertical-offset="236" max-vertical-offset="912">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manual/output2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4437086" vertical-offset="116" max-vertical-offset="720">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -88,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cookbook/file/file2.txt" />
         <option value="$PROJECT_DIR$/cookbook/file/file1.php" />
         <option value="$PROJECT_DIR$/cookbook/file/file2.php" />
         <option value="$PROJECT_DIR$/cookbook/class/Father.php" />
@@ -139,6 +150,7 @@
         <option value="$PROJECT_DIR$/manual/arrayiterator2.php" />
         <option value="$PROJECT_DIR$/manual/geoip.php" />
         <option value="$PROJECT_DIR$/manual/output.php" />
+        <option value="$PROJECT_DIR$/manual/output2.php" />
       </list>
     </option>
   </component>
@@ -147,8 +159,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
-    <option name="y" value="133" />
+    <option name="x" value="210" />
+    <option name="y" value="138" />
     <option name="width" value="1555" />
     <option name="height" value="797" />
   </component>
@@ -312,8 +324,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="133" width="1555" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="210" y="138" width="1555" height="797" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23461539" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -359,16 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbook/class/Child2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.818182" vertical-offset="792" max-vertical-offset="1560">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ddos/test1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93413174" vertical-offset="144" max-vertical-offset="1272">
@@ -830,8 +832,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manual/output.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.19205298" vertical-offset="308" max-vertical-offset="912">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state vertical-scroll-proportion="-9.575758" vertical-offset="236" max-vertical-offset="912">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/output2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4437086" vertical-offset="116" max-vertical-offset="720">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
