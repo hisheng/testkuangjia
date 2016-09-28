@@ -37,8 +37,19 @@ var_dump(xrange(1, 9, 2));
 function gen_one_to_three() {
     for ($i = 1; $i <= 3; $i++) {
         //注意变量$i的值在不同的yield之间是保持传递的。
-        yield $i;
+        yield add($i);
     }
+
+    // 上面的写法相当于
+    /*
+     *  yield add(1);
+     *  yield add(2);
+     *  yield add(3);
+     *
+     * // 在下面调用的时候，每次返回一个 yield 值
+     *
+     *
+     * */
 }
 
 $generator = gen_one_to_three();
@@ -46,4 +57,8 @@ var_dump($generator);
 
 foreach ($generator as $value) {
     echo "{$value}<br/>";
+}
+
+function add($var){
+    return $var+10;
 }
