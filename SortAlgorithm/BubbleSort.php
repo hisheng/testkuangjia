@@ -4,7 +4,7 @@
  * User: hisheng
  * Date: 2017/12/22
  * Time: 12:10
- * 冒泡排序
+ * 冒泡排序 s
  */
 srand(time());
 $i = 1;
