@@ -3,6 +3,7 @@
  * Created by PhpStorm.
  * User: hisheng
  * Date: 2017/12/22
+ * 快速排序
  * Time: 10:43
  */
 srand(time());
